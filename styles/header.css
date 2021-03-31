@@ -1,7 +1,10 @@
 header {
     width: 100%;
+    background-color: #ffffff;
     box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
     padding: 25px 0;
+    position: fixed;
+    z-index: 9999;
 
     display: flex;
     justify-content: center;
@@ -27,21 +30,28 @@ li {
     margin: 0 15px;
 }
 
-a {
+.section-button {
     text-decoration: none;
     color: #2e2e31;
 }
 
-a:hover {
+.section-button:hover {
     text-decoration: none;
     color: #eb8b75;
+}
+
+.section-button:active {
+    border: 1px solid #eb8b75;
+    border-radius: 30px;
+    padding: 10px 15px;
 }
 
 .action-button {
     background-color: #5bc2b2;
     color: white;
     border-radius: 30px;
-    padding: 10px 15px;    
+    padding: 10px 15px;
+    text-decoration: none;    
 }
 
 .action-button:hover {
