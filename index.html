@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/styles/quote.css">
     <link rel="stylesheet" href="/styles/projects.css">
     <link rel="stylesheet" href="/styles/contact.css">
+    <link rel="stylesheet" href="/styles/footer.css">
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
@@ -30,11 +31,11 @@
     <header>
         <div class="contenedor-nav">
             <nav>
-                <ul>
+                <ul class="nav-links">
                     <li> <a class="section-button" href="#hello">Hola</a> </li>
                     <li> <a class="section-button" href="#knowledge">Conocimientos</a> </li>
                     <li> <a class="section-button" href="#projects">Proyectos</a> </li>
-                    <li> <a class="action-button" href="">Contacto</a> </li>
+                    <li> <a class="action-button" href="#contact">Contacto</a> </li>
                 </ul>
             </nav>
         </div>
@@ -137,10 +138,63 @@
         </div>
     </section>
 
-    <section></section>
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-me">
+                <h2>Contactame</h2>
+                <p class="contact-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis voluptatum tenetur! Id, nesciunt? Modi quasi repudiandae quam hic quo, qui cumque nam voluptates, ipsam, tempora eaque numquam eligendi.</p>
+                <div class="social-media">
+                    <ul class="social-links">
+                        <li class="social-item"> <a class="contact-link" href=""> <i class="fab fa-behance contact-icon"></i> candela-gaitn</a> </li>
+                        <li class="social-item"> <a class="contact-link" href=""> <i class="fab fa-github-alt contact-icon"></i> candela-gaitan</a> </li>
+                        <li class="social-item"> <a class="contact-link" href=""> <i class="fab fa-linkedin-in contact-icon"></i> candela-gaitan</a> </li>
+                        <li class="social-item"> <a class="contact-link" href=""> <i class="fas fa-envelope contact-icon"></i> candxla@gmail.com</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="write-me">
+                <h2>Escribime</h2>
+                <form class="contact-form" action="http://127.0.0.1:5500/index.html?Mensaje=#contact">
+                    <div class="full-name">
+                        <div class="first-name-container">
+                            <label for="first-name">Nombre</label>
+                            <input type="text" id="first-name" placeholder="p. ej.: Candela">
+                        </div>
+                        <div class="last-name-container">
+                            <label for="last-name">Apellido</label>
+                            <input type="text" id="last-name" placeholder="p. ej.: Gaitán">
+                        </div>
+                    </div>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="p. ej.: candxla@gmail.com">
+                    <label for="message">Mensaje</label>
+                    <textarea name="Mensaje" id="message" cols="30" rows="8" placeholder="Escriba su mensaje aquí"></textarea>
+                    <button type="submit" class="send-button">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-    <section></section>
+    <footer id="#footer">
+        <nav>
+            <ul class="nav-footer-links">
+                <li> <a class="footer-link" href="#hello">Hola</a> </li>
+                <li> <a class="footer-link" href="#knowledge">Conocimientos</a> </li>
+                <li> <a class="footer-link" href="#projects">Proyectos</a> </li>
+                <li> <a class="footer-link" href="#contact">Contacto</a> </li>
+            </ul>
+        </nav>
 
-    <footer></footer>
+        <ul class="social-footer-links">
+            <li class="social-footer-item"> <a class="contact-link" href=""> <i class="fab fa-behance footer-icon"></i></a> </li>
+            <li class="social-footer-item"> <a class="contact-link" href=""> <i class="fab fa-github-alt footer-icon"></i></a> </li>
+            <li class="social-footer-item"> <a class="contact-link" href=""> <i class="fab fa-linkedin-in footer-icon"></i></a> </li>
+            <li class="social-footer-item"> <a class="contact-link" href=""> <i class="fas fa-envelope footer-icon"></i></a> </li>
+        </ul>
+
+        <p>Hecho con ❤️ por Candela</p>
+
+
+    </footer>
 </body>
 </html>
