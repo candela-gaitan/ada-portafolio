@@ -1,4 +1,4 @@
-.hello {
+#hello {
     padding: 130px 0 80px 0;
 
     display: flex;
@@ -31,9 +31,7 @@
     color: #2e2e31;
 }
 
-h1 {
-    font-size: 55px;
-    font-weight: 800;
+.blue-color-text {
     color: #5bc2b2;
 }
 
@@ -52,6 +50,7 @@ h1 {
     font-size: 18px;
     margin-top: 30px;
     text-decoration: none;
+    transition-duration: 300ms;
 
     display: flex;
     justify-content: center;
@@ -59,6 +58,7 @@ h1 {
 }
 
 .projects-button:hover {
+    transition-property: background-color;
+    transition-duration: 300ms;
     background-color: #5bc2b39c;
-    color: white;
 }

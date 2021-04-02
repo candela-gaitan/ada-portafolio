@@ -1,23 +1,15 @@
-.knowledge {
-    padding: 80px 0;
+#knowledge {
+    padding: 120px 0 80px 0;
     background-color: #fcfcfc;
-}
 
-.knowledge-container-content {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-}
-
-h2 {
-    font-size: 45px;
-    font-weight: 800;
-    margin-bottom: 30px;
+    align-items: center;
 }
 
 .knowledge-description {
     max-width: 400px;
+    margin-top: 30px;
     text-align: center;
     color: #2e2e31;
 }
@@ -35,20 +27,22 @@ h2 {
     background-color: white;
     border-radius: 5px;
     border: 1px solid #dddfe5;
-
-    display: block;
+    transition-duration: 300ms;
 }
 
 .skill-card:hover {
-    border: 1px solid #eb8b75;
+    transition-property: border;
+    transition-duration: 300ms;
+    border: 1px solid #eb8b75d0;
 }
 
 .skill-card:hover .skill-name {
+    transition-property: color;
+    transition-duration: 300ms;
     color: #eb8b75;
 }
 
 .skill-icon {
-    width: 200px;
     font-size: 75px;
     text-align: center;
     margin-top: 24px;
@@ -64,6 +58,8 @@ h2 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    transition-duration: 300ms;
+
     display: block;
 }
 

@@ -12,10 +12,42 @@ body {
     height: auto;
 }
 
+/* Formats */
+
+.column-content {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Titles */
+
+h1 {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
 /* Margins */
 
 .m10 {
     margin: 10px;
+}
+
+.m12 {
+    margin: 12px;
 }
 
 /* Paddings */

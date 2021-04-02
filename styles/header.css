@@ -33,10 +33,12 @@ li {
 .section-button {
     text-decoration: none;
     color: #2e2e31;
+    transition-duration: 300ms;
 }
 
 .section-button:hover {
-    text-decoration: none;
+    transition-property: color;
+    transition-duration: 300ms;
     color: #eb8b75;
 }
 
@@ -51,10 +53,12 @@ li {
     color: white;
     border-radius: 30px;
     padding: 10px 15px;
-    text-decoration: none;    
+    text-decoration: none;
+    transition-duration: 300ms;    
 }
 
 .action-button:hover {
+    transition-property: background-color;
+    transition-duration: 300ms;
     background-color: #5bc2b39c;
-    color: white;
 }
