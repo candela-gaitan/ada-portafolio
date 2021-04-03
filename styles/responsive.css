@@ -1,0 +1,202 @@
+@media screen and (max-width: 500px) {
+
+/* ----- Styles ----- */
+
+    .column-content {
+        max-width: 350px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+/* ----- Header ----- */
+
+    header {
+        display: none;
+    }
+
+    #hello {
+        padding: 50px 0 50px 0;
+    }
+
+    .hello-container-content {
+        flex-direction: column;
+        max-width: 350px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about-text {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome-image {
+        width: 100%;
+        max-width: 350px;
+        margin-top: 50px;
+    }
+
+    .greeting {
+        margin-bottom: 10px;
+    }
+
+/* ----- Knowledge ----- */
+
+    #knowledge {
+        padding: 50px 0 50px 0;
+    }
+
+    .skill-card {
+        width: calc(50% - 20px);
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .skill-icon {
+        margin-top: 10px;
+        font-size: 50px;
+    }
+
+    .skill-name {
+        font-size: 15px;
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+/* ----- Quote ----- */
+
+    #quote {
+        padding: 50px 0 50px 0;
+    }
+
+    .quote-icon {
+        font-size: 70px;
+    }
+
+    .quote-content {
+        font-size: 16px;
+    }
+
+/* ----- Projects ----- */
+
+    #projects {
+        padding: 50px 0 50px 0;
+    }
+
+    .project-cards-container {
+        width: 100%;
+    }
+
+    .project-card {
+        width: calc(50% - 20px);
+        height: 200px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .project-card-hidden-1 {
+        width: calc(50% - 20px);
+        height: 200px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .project-card-hidden-2 {
+        display: none;
+    }
+
+/* ----- Contact ----- */
+
+    #contact {
+        padding: 50px 0 50px 0;
+    }
+
+    .contact-container {
+        background-color: #f6f7fb;
+        border: 0;
+        width: 100%;
+        max-width: 350px;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .contact-me {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-description {
+        text-align: center;
+    }
+
+    .write-me {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .full-name {
+        flex-direction: column;
+    }
+
+    .first-name-container {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .last-name-container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    input {
+        background-color: #ffffff;
+    }
+
+    textarea {
+        background-color: #ffffff;
+        margin-bottom: 30px;
+    }
+
+    .contact-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .send-button {
+        padding: 12px 0 12px 0;
+    }
+    
+/* ----- Footer ----- */
+
+    .footer-nav {
+        display: none;
+    }
+
+    
+
+    
+}
